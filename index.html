@@ -5,54 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌷 Flevo Route Experience | Explore Flevoland's Dynamic Beauty</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Fonts: Playfair Display for headings, Poppins for body text -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Particle.js library for the subtle animated background -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
 
-    <div id="particles-js" class="hero-background"></div> <header class="hero-section">
+    <!-- Background Layer for Particles -->
+    <div id="particles-js" class="hero-background"></div> 
+
+    <!-- COMPETITION WARNING BANNER -->
+    <div class="top-warning-banner">
+        ⚠️ **COMPETITION ENTRY:** This route is a proposal that must be accepted by the government. You cannot book or take this route at this time.
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="hero-section">
         <div class="hero-content">
             <h1 class="animate-text">The Flevo Route Experience</h1>
             <p class="subtitle animate-text delay-1">Where New Land Meets Dynamic Stories & Blooming Beauty.</p>
+            <!-- Restored "Discover Your Journey" button -->
             <a href="#explore" class="btn-cta animate-text delay-2">Discover Your Journey</a>
         </div>
     </header>
 
+    <!-- FEATURE SECTION: Key Destinations (The Three Squares) -->
     <section id="explore" class="feature-section section-hidden">
-        <h2>Uncover the Miracle of the Polder</h2>
+        <h2>Key Destinations of the Route</h2>
         <div class="feature-grid">
+            
             <div class="feature-card animate-on-scroll">
-                <span class="icon">✨</span>
-                <h3>The Tulip Route</h3>
-                <p>Drive or cycle through endless fields of vibrant tulips in Eastern Flevoland. An annual spectacle that transforms the horizon into a canvas of color.</p>
+                <span class="icon">🌿</span>
+                <h3>Bultpark: The Green Heart</h3>
+                <p>Discover a serene urban oasis with diverse wildlife and elevated mounds offering unique views over Lelystad. Perfect for a calming walk or birdwatching.</p>
             </div>
+            
             <div class="feature-card animate-on-scroll">
-                <span class="icon">🗺️</span>
-                <h3>The Audio Tour</h3>
-                <p>Listen to fascinating stories about the province's history, the monumental land reclamation, and the local farms as you traverse this unique landscape.</p>
+                <span class="icon">⚓</span>
+                <h3>Batavia Haven: Maritime Scenery</h3>
+                <p>Visit the historic harbor where the magnificent Batavia ship rests. Enjoy the picturesque waterfront, specialty shops, and a vibrant, nautical atmosphere.</p>
             </div>
+            
             <div class="feature-card animate-on-scroll">
-                <span class="icon">🌾</span>
-                <h3>Vast Horizons</h3>
-                <p>Experience the unique wide-open views of the world's largest man-made province. Encounter impressive landscape art and historic dykes.</p>
+                <span class="icon">🗿</span>
+                <h3>De Hurkende Man: Iconic Art</h3>
+                <p>Encounter one of Flevoland's most striking land art installations—the "Squatting Man." This massive sculpture offers a compelling photo opportunity and a sense of scale.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ROUTE EXPLANATION SECTION (Styled like the old Batavia section for visual impact) -->
+    <section class="route-explanation-section section-hidden">
+        <div class="container">
+            <div class="explanation-content animate-on-scroll">
+                <h2>Why Our Flevo Route is Unforgettable</h2>
+                <p class="subtitle-text">Beyond the scenic views, the Flevo Route offers a journey through human ingenuity and breathtaking natural beauty.</p>
+                <p>This route has been meticulously designed to showcase the diverse wonders of Flevoland, the Netherlands' youngest province. You will experience the sheer awe of driving on land reclaimed from the sea, tracing the history of the massive reclamation project. The path connects monumental **Land Art** pieces, tranquil **Nature Reserves** like Bultpark, and historically rich locations such as **Batavia Haven**.</p>
+                <p>It's not just a drive; it's a dynamic, educational, and visually stunning exploration that links the best of Flevoland's natural, cultural, and engineering marvels. This carefully curated itinerary ensures every traveler leaves with a deep appreciation for the province's unique story.</p>
+            </div>
+            <div class="explanation-visual-wrapper animate-on-scroll">
+                <!-- Visual Placeholder using Moooi style background -->
+                 <div class="moooi-style-visual"></div>
             </div>
         </div>
     </section>
 
-    <section class="why-our-route-section section-hidden">
-        <div class="why-route-content animate-on-scroll">
-            <h2 class="animate-text">Why Our experience route Route is the one to choose </h2>
-            <p class="subtitle animate-text delay-1">Beyond the scenic views, the Flevo Route offers a journey through human ingenuity and breathtaking natural beauty.</p>
-            <p class="animate-text delay-2">Experience the awe of driving on land reclaimed from the sea, witness stunning land art amidst vast horizons, and discover vibrant historical sites like Batavia Haven and tranquil green spaces like Bultpark. Every turn reveals a new perspective on this unique province, making your trip a truly enriching adventure.</p>
-            <a href="#explore" class="btn-cta animate-text delay-3">Plan Your Unique Adventure</a>
-        </div>
-    </section>
-
+    <!-- DYNAMIC QUOTE SECTION -->
     <section class="quote-section section-hidden">
         <blockquote id="quote-text" class="animate-on-scroll">"A journey through history, color, and a landscape born from the sea."</blockquote>
         <p id="quote-author" class="animate-on-scroll">– Flevoland Explorer</p>
     </section>
 
+    <!-- FOOTER -->
     <footer class="footer-section">
         <p>&copy; 2024 Flevo Route Experience. Powered by Passion for the Polder.</p>
     </footer>
