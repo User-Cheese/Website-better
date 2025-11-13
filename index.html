@@ -1,20 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌷 Flevo Route Experience | Explore Flevoland's Dynamic Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
 
-    <h1>Welcome to my Flevo Route site!</h1>
-    
-    <section class="quote-section">
-        <blockquote id="quote-text">...</blockquote>
-        <p id="quote-author">...</p>
+    <div id="particles-js" class="hero-background"></div> <header class="hero-section">
+        <div class="hero-content">
+            <h1 class="animate-text">The Flevo Route Experience</h1>
+            <p class="subtitle animate-text delay-1">Where New Land Meets Dynamic Stories & Blooming Beauty.</p>
+            <a href="#explore" class="btn-cta animate-text delay-2">Discover Your Journey</a>
+        </div>
+    </header>
+
+    <section id="explore" class="feature-section section-hidden">
+        <h2>Uncover the Miracle of the Polder</h2>
+        <div class="feature-grid">
+            <div class="feature-card animate-on-scroll">
+                <span class="icon">✨</span>
+                <h3>The Tulip Route</h3>
+                <p>Drive or cycle through endless fields of vibrant tulips in Eastern Flevoland. An annual spectacle that transforms the horizon into a canvas of color.</p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <span class="icon">🗺️</span>
+                <h3>The Audio Tour</h3>
+                <p>Listen to fascinating stories about the province's history, the monumental land reclamation, and the local farms as you traverse this unique landscape.</p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <span class="icon">🌾</span>
+                <h3>Vast Horizons</h3>
+                <p>Experience the unique wide-open views of the world's largest man-made province. Encounter impressive landscape art and historic dykes.</p>
+            </div>
+        </div>
     </section>
-    
-    <footer>...</footer>
+
+    <section class="batavia-haven-section section-hidden">
+        <div class="container">
+            <div class="batavia-content animate-on-scroll">
+                <h2>Batavia Haven: A Glimpse into Maritime History</h2>
+                <p>Step back in time at Lelystad's Batavia Haven, where history comes alive. Explore the faithfully reconstructed 17th-century VOC ship Batavia, a symbol of the Dutch Golden Age. Wander through the shipyard, learn about traditional craftsmanship, and immerse yourself in the tales of seafaring adventures and challenges that shaped the Netherlands.</p>
+                <a href="https://www.batavialand.nl/" target="_blank" class="btn-secondary">Visit Batavia Land</a>
+            </div>
+            <div class="batavia-image-wrapper animate-on-scroll">
+                 <img src="https://source.unsplash.com/1000x600/?batavia-ship,harbor,netherlands" alt="Batavia Ship in Batavia Haven" class="batavia-image">
+                </div>
+        </div>
+    </section>
+
+    <section class="quote-section section-hidden">
+        <blockquote id="quote-text" class="animate-on-scroll">"A journey through history, color, and a landscape born from the sea."</blockquote>
+        <p id="quote-author" class="animate-on-scroll">– Flevoland Explorer</p>
+    </section>
+
+    <footer class="footer-section">
+        <p>&copy; 2024 Flevo Route Experience. Powered by Passion for the Polder.</p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
