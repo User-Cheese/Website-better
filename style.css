@@ -7,6 +7,10 @@
     --text-grey: #b0b0b0; /* Subtler grey text */
     --hover-gold: #ffd700; /* Brighter gold on hover */
     --transition-speed: 0.3s ease-out;
+    
+    /* 📸 DEDICATED SPOT FOR VISUAL IMAGE URL 📸 */
+    /* Using your newly uploaded file: Screenshot 2025-11-10 124808.png */
+    --visual-image-url: url('Screenshot 2025-11-10 124808.png'); 
 }
 
 * {
@@ -262,9 +266,9 @@ section h2 {
 .moooi-style-visual {
     width: 100%;
     height: 100%;
-    /* Confirmed file path for the background */
-    background: url('file:///C:/Users/polad/OneDrive/Pictures/Screenshots/Screenshot%202025-10-06%201020647.png') no-repeat center center/cover;
-    filter: brightness(0.7) contrast(1.1); 
+    /* Now using the CSS Variable */
+    background: var(--visual-image-url) no-repeat center center/cover;
+    filter: brightness(1) contrast(1); /* Resetting the filter since this is a map image */
     border-radius: 15px;
     transition: transform 0.5s ease;
 }
