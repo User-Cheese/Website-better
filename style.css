@@ -263,7 +263,7 @@ section h2 {
     width: 100%;
     height: 100%;
     /* Confirmed file path for the background */
-    background: url('Moooi-min.webp') no-repeat center center/cover;
+    background: url('file:///C:/Users/polad/OneDrive/Pictures/Screenshots/Screenshot%202025-10-06%201020647.png') no-repeat center center/cover;
     filter: brightness(0.7) contrast(1.1); 
     border-radius: 15px;
     transition: transform 0.5s ease;
